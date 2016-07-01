@@ -3,7 +3,7 @@ package org.johnsonland.fibonacci.big;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-// TODO: Auto-generated Javadoc
+
 /**
  * The Class BigFibonacci.
  */
@@ -22,7 +22,7 @@ public class BigFibonacci {
 		// get user input for a
 		int i = reader.nextInt();
 		 BigInteger num1 = new BigInteger("0");
-	     BigInteger num2 = new BigInteger("1");
+	         BigInteger num2 = new BigInteger("1");
 		 BigInteger num3 ;
 		System.out.println(num1);
 		System.out.println(num2);
