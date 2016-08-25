@@ -24,8 +24,8 @@ public class BigFibonacci {
 		 //BigInteger num1 = new BigInteger("0");
 	         BigInteger num2 = new BigInteger("1");
 		 BigInteger num3 ;
-		System.out.println(num1);
-		System.out.println(num2);
+		 System.out.println(num1);
+		 System.out.println(num2);
 		while (i > 0){
 			num3 = num1.add(num2);
 			num1 = num2;
