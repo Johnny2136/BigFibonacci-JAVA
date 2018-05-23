@@ -17,11 +17,11 @@ public class BigFibonacci {
 	public static void main(String[] args) {
 		System.out.println("Hello fib! Enter the proposed length of Fibonacci series:");
 		@SuppressWarnings("resource")
-		Scanner reader = new Scanner(System.in);
+		Scanner reader = new Scanner(System.in) - 2;
 	
 		// get user input for a
 		int i = reader.nextInt();
-		 //BigInteger num1 = new BigInteger("0");
+		 BigInteger num1 = new BigInteger("0");
 	         BigInteger num2 = new BigInteger("1");
 		 BigInteger num3 ;
 		 System.out.println(num1);
